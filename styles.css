@@ -37,3 +37,12 @@ nav.top-nav .pulldown-menu{
 nav.top-nav li:hover .pulldown-menu{
     display:block;
 }
+.projects-album-wrapper {
+}
+
+.projects-album-art {
+    margin-left: 100px;
+    margin-right: 100px;
+    height:1000px;
+    width:1000px;
+}

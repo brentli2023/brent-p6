@@ -37,8 +37,57 @@ nav.top-nav .pulldown-menu{
 nav.top-nav li:hover .pulldown-menu{
     display:block;
 }
+body{
+    background-color:lightpink;
+}
 .projects-album-wrapper {
+    display: grid;
+    grid-row-gap: 50px;
+    grid-template-columns: 600px 600px;
 }
 
 .projects-album-art {
+    margin-left: 50px;
+    margin-right: 100px;
+    height:500px;
+    width:500px;
+}
+
+.projects-album-name {
+    text-align: center;
+    margin-block-start:10px;
+    margin-block-end:5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:blue;
+}
+main{
+    margin-top:100px;
+}
+.info{
+    padding: 10px;
+    border: 2px solid red;
+    width: 400px;
+    margin: auto;
+}
+.profile-picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    height:400px;
+    width:300px;
+}
+
+.bio{
+    padding: 10px;
+    border: 2px solid red;
+    width: 600px;
+    margin: auto;
+}
+
+.contact{
+    padding: 10px;
+    border: 2px solid red;
+    width: 600px;
+    margin: auto;
 }

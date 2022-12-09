@@ -12,3 +12,28 @@ nav [aria-current=page] {
     color:#000;
     border-bottom: .25em solid;
 }
+nav.top-nav li{
+    display: inline-block;
+    font-family:sans-serif;
+    font-weight: bold;
+    margin: 5px;
+    user-select: none;
+}
+nav.top-nav li:hover{
+    text-decoration: underline;
+}
+nav.top-nav ul{
+    list-style:none;
+}
+nav.top-nav .pulldown-menu li{
+    display:block;
+}
+nav.top-nav .pulldown-menu{
+    display: none;
+    position:absolute;
+    border: 1px solid white;
+    background-color:white;
+}
+nav.top-nav li:hover .pulldown-menu{
+    display:block;
+}
